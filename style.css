@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-style: italic;
+
+}
+.inputkeysall{
+    background-color: black;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 25px;
+  
+    
+}
+hr{
+    background-color: #555;
+    height: 2px;
+    width: 90%;
+    border: none;
+    margin: 0 auto;
+}
+.keys{
+   border: none;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 10px;
+    background-color: black;
+}
+.display{
+   
+    border: none;
+    text-align: right;
+    width:100%;
+    background-color: black;
+    height: 30vh;
+    color: rgb(255, 221, 221);
+    font-size: 30px;
+   
+}
+
+   
+
+button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%; 
+    border: none;
+    color: hsl(24, 100%, 81%);
+    font-size: 25px;
+/* circle */
+background-color: hsl(0, 0%, 15%);
+
+
+}
+button:hover{
+    color: hsl(33, 100%, 50%);
+    background-color: hsl(0, 0%, 55%)
+}
+.operator{
+    color: black;
+   color: rgb(155, 255, 255);
+   font-size: 30px;
+}
+.operator:hover{
+    background-color: rgb(191, 255, 255);
+    color: blue;
+    font-size:35px ;
+}
+#eqaul{
+    background-color: rgb(155, 255, 255);
+    color: black;
+
+}
+#eqaul:hover{
+    background-color: rgb(56, 192, 56);
+    font-size:35px ;
+}
